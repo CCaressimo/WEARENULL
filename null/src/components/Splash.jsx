@@ -31,16 +31,16 @@ const Splash = () => {
             </div>
             <div className=''>
               <div className="circle flex justify-center items-center">
-                {/* <nav>
+                <nav>
                   <NavLink
                     to='/linktree'
-                  > */}
+                  >
                   <img src={sigil} 
                     alt="sigil" 
                     className="sigil"
                   />
-                  {/* </NavLink>
-                </nav> */}
+                  </NavLink>
+                </nav>
               </div>
             </div>
           </div>
