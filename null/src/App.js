@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Splash from "./components/Splash";
-import linkTree from "./components/linkTree"
+// import linkTree from "./components/linkTree"
 
 const App = () => {
 
@@ -10,7 +10,7 @@ const App = () => {
     <BrowserRouter>
         <Switch>
           <Route component={Splash} path="/" exact/>
-          <Route component={linkTree} path="/linktree"/>
+          {/* <Route component={linkTree} path="/linktree"/> */}
         </Switch>
     </BrowserRouter>
   );
