@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 import 'tw-elements'
 import { FaFacebookSquare, FaInstagram, FaTwitterSquare, FaSpotify, FaTiktok, FaYoutube} from 'react-icons/fa'
 import  "./css/Splash.css"
@@ -31,16 +31,16 @@ const Splash = () => {
             </div>
             <div className=''>
               <div className="circle flex justify-center items-center">
-                <nav>
+                {/* <nav>
                   <NavLink
                     to='/linktree'
-                  >
+                  > */}
                   <img src={sigil} 
                     alt="sigil" 
                     className="sigil"
                   />
-                  </NavLink>
-                </nav>
+                  {/* </NavLink>
+                </nav> */}
               </div>
             </div>
           </div>
