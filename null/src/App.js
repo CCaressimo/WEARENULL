@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Splash from "./components/Splash";
 import linkTree from "./components/linkTree"
 
@@ -7,12 +7,12 @@ const App = () => {
 
 
   return (
-    <BrowserRouter>
-        <Switch>
-          <Route component={Splash} path="/" exact/>
-          <Route component={linkTree} path="/linktree"/>
-        </Switch>
-    </BrowserRouter>
+    <Router>
+      <Routes>
+        <Route element={<Splash/>} path="/" exact />
+        <Route element={<linkTree/>} path="/linktree" />
+      </Routes>
+    </Router>
   );
 };
 
