@@ -1,18 +1,17 @@
-import React from 'react'
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import Halo from './components/Halo';
-import Footer from './components/Footer';
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Splash from "./components/Splash";
 
-function App() {
+const App = () => {
+
+
   return (
-    <div>
-      <Navbar />
-      <Hero />
-      <Halo />
-      <Footer />
-    </div>
+    <Router>
+      <Routes>
+        <Route element={<Splash/>} path="/" exact />
+      </Routes>
+    </Router>
   );
-}
+};
 
 export default App;
