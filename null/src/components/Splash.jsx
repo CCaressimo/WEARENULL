@@ -99,6 +99,7 @@ const Splash = props => {
                         status={status} 
                         message={message}
                         onValidated={formData => subscribe(formData)}
+                        closeModal={closeModal}
                     />
                 )}
           />

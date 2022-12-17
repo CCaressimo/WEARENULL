@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 
-const CustomForm = ({ status, message, onValidated}) => {
+const CustomForm = ({ status, message, onValidated, closeModal}) => {
     const [email, setEmail] = useState('');
     const [firstName, setFirstName] = useState('');
     const [lastName, setLastName] = useState('');
@@ -10,15 +10,23 @@ const CustomForm = ({ status, message, onValidated}) => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        email &&
-        firstName &&
-        lastName &&
-        email.indexOf("@") > -1 &&
-        onValidated({
-            MERGE1: firstName,
-            MERGE2: lastName,
-            EMAIL: email,
+        try {
+          email &&
+          firstName &&
+          lastName &&
+          email.indexOf("@") > -1 &&
+          onValidated({
+              MERGE1: firstName,
+              MERGE2: lastName,
+              EMAIL: email,
         });
+          setTimeout(() => {
+            closeModal()
+          },4200)
+        } catch (error) {
+          console.log(error.message)
+        }
+        
     }
   return (
         <div className='modalOuter'>
