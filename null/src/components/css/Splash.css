@@ -150,15 +150,8 @@ video {
     height: 300px;
     border-radius: 50%;
     z-index: -1;
-}
-
-.circle:hover {
     animation: shake 0.5s;
     animation-iteration-count: infinite;
-}
-
-.circle:hover .enterText{
-    opacity: 100%;
 }
 
 @keyframes shake {
@@ -187,11 +180,6 @@ video {
   /* 80% { transform: translate(-1px, -1px) rotate(.5deg); } */
   90% { transform: translate(.3px, .5px) rotate(0deg); }
   100% { transform: translate(.5px, -.3px) rotate(-.3deg); }
-}
-
-.enterText {
-    opacity: 0%;
-    
 }
 
 .modalOuter {
