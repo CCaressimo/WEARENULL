@@ -37,7 +37,7 @@ const Splash = props => {
   return (
     <>
       <main>
-          <video src={halo} autoPlay loop muted playsinline className="video-container"/>
+          <video src={halo} autoPlay loop muted playsinline="true" disablePictureInPicture="true" className="video-container"/>
 
           <section className="">
             <div className='w-screen h-screen flex justify-center items-center'>
