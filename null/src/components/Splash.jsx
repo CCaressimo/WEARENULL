@@ -4,9 +4,8 @@ import CustomForm from './CustomForm';
 import { FaFacebookSquare, FaInstagram, FaTwitterSquare, FaSpotify, FaTiktok, FaYoutube} from 'react-icons/fa'
 import { SiApplemusic } from "react-icons/si";
 import  "./css/Splash.css"
-import halo from "../assets/haloSplash.mov"
+import halo from "../assets/haloSplash.mp4"
 import nullLogo from "../assets/NullwhiteLogo.png"
-import nullLogoRed from "../assets/nullLogoRed.png"
 import nullSigilRed from "../assets/nullSigilRed.png"
 import sigil from "../assets/Sigilwhite.png"
 import Modal from 'react-modal'
@@ -38,7 +37,7 @@ const Splash = props => {
   return (
     <>
       <main>
-          <video src={halo} autoPlay loop muted className="video-container"/>
+          <video src={halo} autoPlay loop muted playsinline className="video-container"/>
 
           <section className="">
             <div className='w-screen h-screen flex justify-center items-center'>
