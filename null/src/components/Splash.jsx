@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import MailchimpSubscribe from "react-mailchimp-subscribe";
 import CustomForm from './CustomForm';
-import { FaFacebookSquare, FaInstagram, FaTwitterSquare, FaSpotify, FaTiktok, FaYoutube, FaTicketAlt} from 'react-icons/fa'
+import { FaFacebookSquare, FaInstagram, FaTwitterSquare, FaSpotify, FaTiktok, FaYoutube} from 'react-icons/fa'
 import { SiApplemusic } from "react-icons/si";
 import  "./css/Splash.css"
 import halo from "../assets/haloSplash.mp4"
@@ -50,7 +50,6 @@ const Splash = props => {
               <div className='smFooter flex justify-center items-center'>
                 <div className='flex gap-6 justify-center'>
                     <a href='https://open.spotify.com/artist/4sPUuytxwpAcIprvNPmcLz' target="_blank" className='smIcon'><FaSpotify size={26}/></a>
-                    <a href='https://music.apple.com/us/artist/null/1646846261' target="_blank" className='smIcon'><FaTicketAlt size={26}/></a>
                     <a href='https://www.youtube.com/@WEARE_NULL' target="_blank" className='smIcon'><FaYoutube size={26}/></a>
                     <a href='https://music.apple.com/us/artist/null/1646846261' target="_blank" className='smIcon'><SiApplemusic size={26}/></a>
                     <a href='https://www.instagram.com/Wearenull_' target="_blank" className='smIcon'><FaInstagram size={26}/></a>
