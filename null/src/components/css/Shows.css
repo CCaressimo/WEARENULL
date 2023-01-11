@@ -1,0 +1,49 @@
+@font-face {
+    font-family: humane;
+    src: url("../../assets/Humane-SemiBold\ \(1\).otf");
+}
+@font-face {
+    font-family: humaneBold;
+    src: url("../../assets/Humane-Bold\ \(1\).otf");
+}
+
+@media screen and (max-width: 768px) {
+    html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.shows {
+    width: 100%;
+    height: 100vh;
+}
+
+.showCards {
+    padding: 5px;
+}
+
+.showCardText {
+    font-size: calc(16px + 0.390625vw);
+    color: rgb(241, 0, 0);
+    z-index: 2;
+    filter: drop-shadow(0 0px 1px);
+}
