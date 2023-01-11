@@ -1,0 +1,42 @@
+@font-face {
+    font-family: humane;
+    src: url("../../assets/Humane-SemiBold\ \(1\).otf");
+}
+@font-face {
+    font-family: humaneBold;
+    src: url("../../assets/Humane-Bold\ \(1\).otf");
+}
+
+@media screen and (max-width: 768px) {
+    html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.shop {
+    width: 100%;
+    height: 100vh;
+}
+
+.shopCards {
+    padding: 5px;
+}

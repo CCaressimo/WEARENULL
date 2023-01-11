@@ -1,10 +1,9 @@
-import React, {useState} from 'react'
+import React, {} from 'react'
 import { FaFacebookSquare, FaInstagram, FaTwitterSquare, FaSpotify, FaTiktok, FaYoutube} from 'react-icons/fa'
 import { SiApplemusic } from "react-icons/si";
 import  "./css/Splash.css"
 import halo from "../assets/haloSplash.mp4"
 import nullLogo from "../assets/NullwhiteLogo.png"
-import nullSigilRed from "../assets/nullSigilRed.png"
 import sigil from "../assets/Sigilwhite.png"
 
 const Splash = () => {
@@ -23,13 +22,13 @@ const Splash = () => {
               </div>
               <div className='smFooter flex justify-center items-center'>
                 <div className='flex gap-6 justify-center'>
-                    <a href='https://open.spotify.com/artist/4sPUuytxwpAcIprvNPmcLz' target="_blank" className='smIcon'><FaSpotify size={26}/></a>
-                    <a href='https://www.youtube.com/@WEARE_NULL' target="_blank" className='smIcon'><FaYoutube size={26}/></a>
-                    <a href='https://music.apple.com/us/artist/null/1646846261' target="_blank" className='smIcon'><SiApplemusic size={26}/></a>
-                    <a href='https://www.instagram.com/Wearenull_' target="_blank" className='smIcon'><FaInstagram size={26}/></a>
-                    <a href='https://www.tiktok.com/@weare_null' target="_blank" className='smIcon'><FaTiktok size={26}/></a>
-                    <a href='https://twitter.com/WEARE_NULL' target="_blank" className='smIcon'><FaTwitterSquare size={26}/></a>
-                    <a href='https://www.facebook.com/WExARExNULL' target="_blank" className='smIcon'><FaFacebookSquare size={26}/></a>
+                    <a href='https://open.spotify.com/artist/4sPUuytxwpAcIprvNPmcLz' target="_blank" rel="noreferrer"  className='smIcon'><FaSpotify size={26}/></a>
+                    <a href='https://www.youtube.com/@WEARE_NULL' target="_blank" rel="noreferrer"  className='smIcon'><FaYoutube size={26}/></a>
+                    <a href='https://music.apple.com/us/artist/null/1646846261' target="_blank" rel="noreferrer"  className='smIcon'><SiApplemusic size={26}/></a>
+                    <a href='https://www.instagram.com/Wearenull_' target="_blank" rel="noreferrer"  className='smIcon'><FaInstagram size={26}/></a>
+                    <a href='https://www.tiktok.com/@weare_null' target="_blank" rel="noreferrer"  className='smIcon'><FaTiktok size={26}/></a>
+                    <a href='https://twitter.com/WEARE_NULL' target="_blank" rel="noreferrer"  className='smIcon'><FaTwitterSquare size={26}/></a>
+                    <a href='https://www.facebook.com/WExARExNULL' target="_blank" rel="noreferrer"  className='smIcon'><FaFacebookSquare size={26}/></a>
                 </div>
               </div>
               <div className=''>
