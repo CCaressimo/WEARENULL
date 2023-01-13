@@ -5,13 +5,16 @@ import HomePage from "./components/HomePage";
 import Shows from "./components/Shows";
 import Shop from "./components/Shop";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+
 
 
 const App = () => {
 
   return (
     <Router>
-        <Navbar/>
+      <Navbar />
+      <Footer />
       <Routes>
         <Route element={<Splash />} path="/" exact />
         <Route element={<HomePage />} path="/home" />

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { SidebarData } from './SidebarData';
 import './css/Navbar.css';
 import { IconContext } from 'react-icons';
-import logo from '../assets/nullLogoRed.png'
+import logo from '../assets/nullLogoGrey.png'
 
 const Navbar = () => {
   const [sidebar, setSidebar] = useState(false);
@@ -15,7 +15,9 @@ const Navbar = () => {
     <>
       <IconContext.Provider value={{className: "nav-icon"}}>
         <div className='navbar'>
-          {/* <img src={logo} alt="Null logo" className="navLogo"/> */}
+          <Link to='/'>
+            <img src={logo} alt="Null logo" className="navLogo"/>
+          </Link>
           <Link to='#' className='menu-bars'>
             <FaIcons.FaBars onClick={showSidebar} />
           </Link>
