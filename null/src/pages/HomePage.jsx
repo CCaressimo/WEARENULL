@@ -3,6 +3,7 @@ import MailchimpSubscribe from "react-mailchimp-subscribe";
 import { CustomForm } from '../components/CustomForm';
 import "../css/HomePage.css"
 import "../css/MailingList.css"
+import deny from "../assets/deny.mp4"
 import nullSigilRed from "../imgs/nullSigilRed.png"
 import Modal from 'react-modal'
 
@@ -22,16 +23,21 @@ const customStyles = {
 
 export const HomePage = props => {
   const [modalIsOpen, setIsOpen] = useState(true);
-  const openModal = () => {
-    setIsOpen(true)
-  }
+  // const openModal = () => {
+  //   setIsOpen(true)
+  // }
   const closeModal = () => {
     setIsOpen(false)
   }
   const postUrl = `https://Wearenull.us12.list-manage.com/subscribe/post?u=${REACT_APP_U}&id=${REACT_APP_ID}`;
   return (
     <>
-        <Modal
+      <video 
+        src={deny} autoPlay loop muted 
+        playsInline={true} 
+        disablePictureInPicture={true} 
+        className="video-container"/>
+      <Modal
         isOpen={modalIsOpen}
         // onRequestClose={closeModal}
         contentLabel="Example Modal"

@@ -20,7 +20,7 @@
   margin-right: 2rem;
   font-size: 2rem;
   background: none;
-  display: flex;
+  display: grid;
   align-items: center;
   justify-content: flex-end;
   position: relative;
@@ -74,14 +74,14 @@
   margin-right: 2rem;
   font-size: 2rem;
   background: none;
-  display: flex;
+  display: grid;
   align-items: center;
-  justify-content: flex-end;
   position: relative;
   transform: translate( 15px , 10px);
   color: #9d9a9a;
   width: 10rem;
   height: 4rem;
+  z-index: 4;
 }
 
 .nullLogo :hover{

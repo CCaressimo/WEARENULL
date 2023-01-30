@@ -12,11 +12,6 @@
     src: url("../assets/nerv-font.otf");
 }
 
-
-.showBackground {
-
-}
-
 @media only screen and (max-width: 600px) {
     .cardContainer {
         padding-left: 1em;
