@@ -1,0 +1,9 @@
+.homepage {
+    background-color: rgb(1, 1, 19);
+    overflow-x: scroll;
+}
+
+.homeContainer {
+    padding: 10vh;
+}
+
