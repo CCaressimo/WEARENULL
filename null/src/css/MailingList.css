@@ -1,0 +1,99 @@
+
+.sigilModal {
+    mix-blend-mode: difference;
+    margin: auto;
+    width: 250px;
+    height: 200px;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.modalText {
+    font-size: calc(48px + 0.390625vw);
+    font-family: humaneBold !important;
+    color: #0f028d;
+    z-index: 2;
+    letter-spacing: 2px;
+    filter: drop-shadow(0 0px 1px);
+}
+
+.modal {
+    padding-left: 50px;
+}
+
+.modalOuter {
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalInner {
+    text-align: center;
+    margin: 5px;
+    font-family: humane !important;
+    color: aliceblue;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+@media screen and (min-width: 600px) {
+    form {
+        width: 75%;
+    }
+}
+@media screen and (min-width: 800px) {
+    form {
+        width: 70%;
+    }
+}
+@media screen and (min-width: 1000px) {
+    form {
+        width: 65%;
+    }
+}
+@media screen and (min-width: 1200px) {
+    form {
+        width: 60%;
+    }
+}
+
+form {
+  margin: 5px;
+  border-radius: 4px;
+}
+
+input {
+    padding: 5px;
+    width: 100%;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    border-radius: 4px;
+    border: 2px solid #8e86d5;
+    background-color: black;
+    color: aliceblue;
+    font-family: nerv-font !important;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.mailingListButtonText {
+    font-size: 24px;
+    font-family: humane !important;
+    color: #8e86d5;
+}
+
+.buttonText:hover {
+    animation: shake2 0.5s;
+    animation-iteration-count: infinite;
+}
+
+.mailingListText {
+    font-size: calc(48px + 0.390625vw);
+    font-family: humane !important;
+    color: #8e86d5;
+    z-index: 2;
+    letter-spacing: 2px;
+    filter: drop-shadow(0 0px 1px);
+}
