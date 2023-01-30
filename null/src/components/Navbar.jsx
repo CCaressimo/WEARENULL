@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import * as FaIcons from 'react-icons/fa';
 import { Link } from 'react-router-dom';
-import { SidebarData } from './SidebarData';
-import './css/Navbar.css';
+import { SidebarData } from '../data/SidebarData';
+import '../css/Navbar.css';
 import { IconContext } from 'react-icons';
-import logo from '../assets/nullLogoGrey.png'
+import logo from '../imgs/nullLogoGrey.png'
 
-const Navbar = () => {
+export const Navbar = () => {
   const [sidebar, setSidebar] = useState(false);
 
   const showSidebar = () => setSidebar(!sidebar);
@@ -34,7 +34,7 @@ const Navbar = () => {
                 <li key={index} className={item.cName}>
                   <Link to={item.path}>
                     {item.icon}
-                    <span>{item.title}</span>
+                    <span className='navText'>{item.title}</span>
                   </Link>
                 </li>
               );
@@ -45,5 +45,3 @@ const Navbar = () => {
     </>
   )
 }
-
-export default Navbar

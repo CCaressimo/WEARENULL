@@ -1,9 +1,9 @@
 import React from 'react'
 import { FaFacebookSquare, FaInstagram, FaTwitterSquare, FaSpotify, FaTiktok, FaYoutube} from 'react-icons/fa'
 import { SiApplemusic } from "react-icons/si";
-import './css/Footer.css'
+import '../css/Footer.css'
 
-const Footer = () => {
+export const Footer = () => {
   return (
     <>
         <div className='footer'>
@@ -18,7 +18,7 @@ const Footer = () => {
             </div>
             <div className='row'>
                 <p className='footerText'>
-                    &copy;{new Date().getFullYear()} [NULL] | All rights Reserved | TrashPlXnet
+                    &copy;{new Date().getFullYear()} [NULL] | All rights Reserved | TRASHPLXNET LLC
                 </p>
             </div>
         </div>
@@ -26,4 +26,3 @@ const Footer = () => {
   )
 }
 
-export default Footer
