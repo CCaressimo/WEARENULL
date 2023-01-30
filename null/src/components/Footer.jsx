@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaFacebookSquare, FaInstagram, FaTwitterSquare, FaSpotify, FaTiktok, FaYoutube} from 'react-icons/fa'
+import { FaFacebookSquare, FaInstagram, FaTwitterSquare, FaSpotify, FaTiktok, FaYoutube, FaCartPlus} from 'react-icons/fa'
 import { SiApplemusic } from "react-icons/si";
 import '../css/Footer.css'
 
@@ -11,6 +11,7 @@ export const Footer = () => {
                 <a href='https://open.spotify.com/artist/4sPUuytxwpAcIprvNPmcLz' target="_blank" rel="noreferrer"  className='smIcon'><FaSpotify/></a>
                 <a href='https://www.youtube.com/@WEARE_NULL' target="_blank" rel="noreferrer"  className='smIcon'><FaYoutube/></a>
                 <a href='https://music.apple.com/us/artist/null/1646846261' target="_blank" rel="noreferrer"  className='smIcon'><SiApplemusic/></a>
+                <a href='https://null-merch-store.myshopify.com/collections/winter-2023' target="_blank" rel="noreferrer"  className='smIcon'><FaCartPlus/></a>
                 <a href='https://www.instagram.com/Wearenull_' target="_blank" rel="noreferrer"  className='smIcon'><FaInstagram/></a>
                 <a href='https://www.tiktok.com/@weare_null' target="_blank" rel="noreferrer"  className='smIcon'><FaTiktok/></a>
                 <a href='https://twitter.com/WEARE_NULL' target="_blank" rel="noreferrer"  className='smIcon'><FaTwitterSquare/></a>

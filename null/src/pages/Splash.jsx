@@ -18,7 +18,7 @@ export const Splash = () => {
             <div className='centerBtn'>
               <div className=''>
                 <div className="circle flex justify-center items-center " onMouseOver='circle'>
-                  <a href="https://distrokid.com/hyperfollow/null18/node?fbclid=IwAR1-cILeQLTr8tNTwx39NOE9Zj4HeQg4I84Klrh9wjYnaChWRty0FzdKr2g" target="_blank">
+                  <a href="https://distrokid.com/hyperfollow/null18/node?fbclid=IwAR1-cILeQLTr8tNTwx39NOE9Zj4HeQg4I84Klrh9wjYnaChWRty0FzdKr2g" target="_blank" rel="noreferrer">
                     <button>
                       <img src={sigil} 
                         alt="sigil" 
