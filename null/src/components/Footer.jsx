@@ -19,7 +19,7 @@ export const Footer = () => {
             </div>
             <div className='row'>
                 <p className='footerText'>
-                    &copy;{new Date().getFullYear()} [NULL] | All rights Reserved | TRASHPLXNET LLC
+                    &copy;{new Date().getFullYear()} [NULL] | All Rights Reserved | TRASHPLXNET LLC
                 </p>
             </div>
         </div>
