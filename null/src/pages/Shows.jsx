@@ -1,5 +1,6 @@
 import React, {} from 'react'
-import { cardInfo } from '../data/shows'
+import { currentShows } from '../data/shows'
+import { pastShows } from '../data/shows'
 import '../css/Shows.css'
 
 export const Shows = () => {
@@ -9,15 +10,29 @@ export const Shows = () => {
         <main className="showBackground">
             <section>
                 <div className="cardContainer">
-                    {cardInfo.map((card, index) => {
+                    {currentShows.map((card, index) => {
                         return (
                             <div className="showCardContainer">
                                 <div class="showCards" key={index}>
                                     <a href={card.url} target="_blank" rel="noreferrer">
                                         <button>
-                                            <img class="showImg" src={card.image} alt={card.alt}/>
+                                            <img class="currentImg" src={card.image} alt={card.alt}/>
                                         </button>
                                     </a>
+                                </div>
+                            </div>
+                        )
+                    })}
+                    </div>
+                </section>
+                <section>
+                    <h3>Past Shows:</h3>
+                    <div className="pastCardContainer">
+                    {pastShows.map((card, index) => {
+                        return (
+                            <div className="pastShowCardContainer">
+                                <div class="pastShowCards" key={index}>
+                                    <img class="pastImg" src={card.image} alt={card.alt}/>
                                 </div>
                             </div>
                         )

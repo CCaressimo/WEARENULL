@@ -4,7 +4,7 @@
     position: fixed;
     z-index: 4;
     mix-blend-mode: difference;
-    color: #9d9a9a;
+    color: #ff0000;
     bottom: 0;
 
 }
@@ -66,7 +66,7 @@
 }
 
 .smIcon:hover {
-    color: #8e86d5;
+    color: #ffffff;
     transition: .5s;
     transition-duration: .5s;
     transform: scale(1.25);

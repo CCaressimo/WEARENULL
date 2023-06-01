@@ -84,9 +84,9 @@ export const CustomForm = ({ status, message, onValidated, closeModal}) => {
             formValues={[firstName, lastName, email]}
             >
               <h2 className='hero glitch layers' data-text="ENTER">
-                <span>
+                <div>
                   ENTER
-                </span>
+                </div>
               </h2>
             </button>
         </form>

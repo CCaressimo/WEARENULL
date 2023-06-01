@@ -1,7 +1,7 @@
 import React, {} from 'react'
 import "../css/Splash.css"
 import "../css/Main.css"
-import node from "../assets/node.mp4"
+import fence from "../assets/fence.mp4"
 import sigil from "../imgs/Sigilwhite.png"
 
 export const Splash = () => {
@@ -9,7 +9,7 @@ export const Splash = () => {
     <>
       <main>
           <video 
-            src={node} autoPlay loop muted 
+            src={fence} autoPlay loop muted 
             playsInline={true} 
             disablePictureInPicture={true} 
             className="video-container"/>
@@ -18,7 +18,7 @@ export const Splash = () => {
             <div className='centerBtn'>
               <div className=''>
                 <div className="circle flex justify-center items-center " onMouseOver='circle'>
-                  <a href="https://www.youtube.com/watch?v=yMqo2zO2svs" target="_blank" rel="noreferrer">
+                  <a href="https://distrokid.com/hyperfollow/null18/fencewalker" target="_blank" rel="noreferrer">
                     <button>
                       <img src={sigil} 
                         alt="sigil" 
@@ -26,7 +26,7 @@ export const Splash = () => {
                       />
                       <div className="environment"></div>
                       <h2 className='headerText hero glitch layers flex justify-center items-center' data-text="HELP ME">
-                        <span>STREAM NODE NOW</span>
+                        <span>PRE-SAVE FENCEWALKER </span>
                       </h2>
                     </button>
                   </a>
