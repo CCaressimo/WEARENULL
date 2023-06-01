@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/NotFound.css"
 import "../css/Splash.css"
-import deny from "../assets/deny.mp4"
+import fence from "../assets/fence1.mp4"
 import sigil from "../imgs/Sigilwhite.png"
 
 export const NotFound = () => {
@@ -9,7 +9,7 @@ export const NotFound = () => {
         <>
         <main>
             <video 
-                src={deny} 
+                src={fence} 
                 autoPlay loop muted 
                 playsinline="true" 
                 disablePictureInPicture="true" 

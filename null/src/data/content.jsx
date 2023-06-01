@@ -1,8 +1,15 @@
 import halo from "../assets/haloSplash.mp4"
 import HALOVocal from "../assets/HALOVocal.mp4"
 import denyV from "../assets/Deny1.mp4"
+import node from "../assets/node.mp4"
+import fence from "../assets/fence.mp4"
 
 export const videoClips = [
+        {
+            videoClip: `${fence}`,
+            title: "FENCEWALKER",
+            url: "https://www.youtube.com/watch?v=sp4VrBSWl4U"
+        },
         {
             videoClip: `${halo}`,
             title: "HALO",
@@ -18,10 +25,10 @@ export const videoClips = [
             title: "DENY",
             url: "https://www.youtube.com/watch?v=zG4HVAkr69U"
         },
-        // {
-        //     videoClip: `${node}`,
-        //     title: "NODE",
-        //     url: ""
-        // },
+        {
+            videoClip: `${node}`,
+            title: "NODE",
+            url: "https://www.youtube.com/watch?v=yMqo2zO2svs"
+        },
         
     ]

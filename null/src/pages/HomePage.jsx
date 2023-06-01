@@ -3,7 +3,7 @@ import MailchimpSubscribe from "react-mailchimp-subscribe";
 import { CustomForm } from '../components/CustomForm';
 import "../css/HomePage.css"
 import "../css/MailingList.css"
-import deny from "../assets/deny.mp4"
+import fence from "../assets/fence.mp4"
 import nullSigilRed from "../imgs/nullSigilRed.png"
 import Modal from 'react-modal'
 
@@ -11,13 +11,16 @@ const {REACT_APP_U, REACT_APP_ID} = process.env
 
 const customStyles = {
   content: {
+    width: "85%",
     top: '50%',
     left: '50%',
     right: 'auto',
     bottom: 'auto',
     marginRight: '-15%',
     transform: 'translate(-50%, -50%)',
-    background: 'linear-gradient(335deg, rgb(4, 30, 126) 0%, rgb(3, 0, 26) 100%)'
+    background: 'linear-gradient(335deg, rgb(31, 31, 31) 0%, rgb(0, 0, 0) 100%)',
+    overflow: 'hidden',
+    border: "2px solid #ff0000"
   },
 };
 
@@ -33,7 +36,7 @@ export const HomePage = props => {
   return (
     <>
       <video 
-        src={deny} autoPlay loop muted 
+        src={fence} autoPlay loop muted 
         playsInline={true} 
         disablePictureInPicture={true} 
         className="video-container"/>
