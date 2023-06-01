@@ -11,7 +11,7 @@ const {REACT_APP_U, REACT_APP_ID} = process.env
 
 const customStyles = {
   content: {
-    width: "85%",
+    width: "95%",
     top: '50%',
     left: '50%',
     right: 'auto',
