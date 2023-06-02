@@ -18,7 +18,7 @@ export const Splash = () => {
             <div className='centerBtn'>
               <div className=''>
                 <div className="circle flex justify-center items-center " onMouseOver='circle'>
-                  <a href="https://www.youtube.com/watch?v=nuYBOukR1XI" target="_blank" rel="noreferrer">
+                  <a href="https://www.youtube.com/watch?v=AdpmwZQ5gXQ" target="_blank" rel="noreferrer">
                     <button>
                       <img src={sigil} 
                         alt="sigil" 
