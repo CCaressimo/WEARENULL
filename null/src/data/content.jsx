@@ -8,7 +8,7 @@ export const videoClips = [
         {
             videoClip: `${fence}`,
             title: "FENCEWALKER",
-            url: "https://www.youtube.com/watch?v=sp4VrBSWl4U"
+            url: "https://www.youtube.com/watch?v=nuYBOukR1XI"
         },
         {
             videoClip: `${halo}`,

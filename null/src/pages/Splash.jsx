@@ -18,7 +18,7 @@ export const Splash = () => {
             <div className='centerBtn'>
               <div className=''>
                 <div className="circle flex justify-center items-center " onMouseOver='circle'>
-                  <a href="https://distrokid.com/hyperfollow/null18/fencewalker" target="_blank" rel="noreferrer">
+                  <a href="https://www.youtube.com/watch?v=nuYBOukR1XI" target="_blank" rel="noreferrer">
                     <button>
                       <img src={sigil} 
                         alt="sigil" 
@@ -26,7 +26,7 @@ export const Splash = () => {
                       />
                       <div className="environment"></div>
                       <h2 className='headerText hero glitch layers flex justify-center items-center' data-text="HELP ME">
-                        <span>PRE-SAVE FENCEWALKER </span>
+                        <span>STREAM FENCEWALKER NOW</span>
                       </h2>
                     </button>
                   </a>
