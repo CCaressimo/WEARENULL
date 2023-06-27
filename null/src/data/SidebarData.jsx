@@ -36,7 +36,7 @@ export const SidebarData = [
   // },
   {
     title: 'Merch',
-    path: 'https://null-merch-store.myshopify.com/collections/winter-2023',
+    path: 'https://null-merch-store.myshopify.com',
     target: "_blank",
     icon: <FaIcons.FaCartPlus />,
     cName: 'nav-text'

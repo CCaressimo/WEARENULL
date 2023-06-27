@@ -3,9 +3,16 @@ import julia from "../imgs/juliashow.png"
 import monolith from "../imgs/june_headliner.jpg"
 import enox from "../imgs/enox.jpg"
 import ramspub from "../imgs/ramspub.jpg"
+import prdgms from "../imgs/prdgms.jpg"
+import xhale from "../imgs/xhale.jpg"
 
 export const pastShows = [
 
+    {
+        image: `${monolith}`,
+        title: "Null Jun 24th Headliner", 
+        url: "https://null-merch-store.myshopify.com/products/null-brooklyn"
+    },
     {
         image: `${enox}`, 
         title: "Enox popup show", 
@@ -30,8 +37,13 @@ export const pastShows = [
 
 export const currentShows = [
     {
-        image: `${monolith}`,
-        title: "Null Jun 24th Headliner", 
-        url: "https://null-merch-store.myshopify.com/products/null-brooklyn"
+        image: `${prdgms}`,
+        title: "PRDGMS X [NULL] Brooklyn", 
+        url: "https://null-merch-store.myshopify.com/products/prdgms-x-null-brooklyn-will-call-tickets"
+    },
+    {
+        image: `${xhale}`,
+        title: "XHALE X [NULL] Riverhead", 
+        url: "https://null-merch-store.myshopify.com/products/xhale-x-null-riverhead-will-call-tickets"
     },
 ]
