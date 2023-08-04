@@ -5,9 +5,19 @@ import enox from "../imgs/enox.jpg"
 import ramspub from "../imgs/ramspub.jpg"
 import prdgms from "../imgs/prdgms.jpg"
 import xhale from "../imgs/xhale.jpg"
+import mass from "../imgs/mass.jpg"
 
 export const pastShows = [
-
+       {
+        image: `${prdgms}`,
+        title: "PRDGMS X [NULL] Brooklyn", 
+        url: "https://null-merch-store.myshopify.com/products/prdgms-x-null-brooklyn-will-call-tickets"
+    },
+    {
+        image: `${xhale}`,
+        title: "XHALE X [NULL] Riverhead", 
+        url: "https://null-merch-store.myshopify.com/products/xhale-x-null-riverhead-will-call-tickets"
+    },
     {
         image: `${monolith}`,
         title: "Null Jun 24th Headliner", 
@@ -37,13 +47,8 @@ export const pastShows = [
 
 export const currentShows = [
     {
-        image: `${prdgms}`,
-        title: "PRDGMS X [NULL] Brooklyn", 
-        url: "https://null-merch-store.myshopify.com/products/prdgms-x-null-brooklyn-will-call-tickets"
-    },
-    {
-        image: `${xhale}`,
-        title: "XHALE X [NULL] Riverhead", 
-        url: "https://null-merch-store.myshopify.com/products/xhale-x-null-riverhead-will-call-tickets"
-    },
+        image: `${mass}`,
+        title: "[NULL] x Shkary kids Massapqeua", 
+        url: "https://null-merch-store.myshopify.com/products/null-x-shkary-kids-massapqeua-will-call-tickets"
+    }
 ]
