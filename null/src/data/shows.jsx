@@ -5,7 +5,7 @@ import enox from "../imgs/enox.jpg"
 import ramspub from "../imgs/ramspub.jpg"
 import prdgms from "../imgs/prdgms.jpg"
 import xhale from "../imgs/xhale.jpg"
-import mass from "../imgs/mass.jpg"
+import MOAM from "../imgs/moam.png"
 
 export const pastShows = [
        {
@@ -47,8 +47,8 @@ export const pastShows = [
 
 export const currentShows = [
     {
-        image: `${mass}`,
-        title: "[NULL] x Shkary kids Massapqeua", 
-        url: "https://null-merch-store.myshopify.com/products/null-x-shkary-kids-massapqeua-will-call-tickets"
+        image: `${MOAM}`,
+        title: "[NULL] X MOAM In Brooklyn Will Call Tickets", 
+        url: "https://null-merch-store.myshopify.com/products/null-x-moam-in-brooklyn-will-call-tickets?fbclid=IwAR0fy9rpR7XTbC1CDbCQjjkQ876EtXAG6x2Enhe9_VvPousTChsIC_qLvzc"
     }
 ]
