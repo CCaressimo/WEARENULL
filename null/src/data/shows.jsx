@@ -46,9 +46,5 @@ export const pastShows = [
 ]
 
 export const currentShows = [
-    {
-        image: `${MOAM}`,
-        title: "[NULL] X MOAM In Brooklyn Will Call Tickets", 
-        url: "https://null-merch-store.myshopify.com/products/null-x-moam-in-brooklyn-will-call-tickets?fbclid=IwAR0fy9rpR7XTbC1CDbCQjjkQ876EtXAG6x2Enhe9_VvPousTChsIC_qLvzc"
-    }
+
 ]
