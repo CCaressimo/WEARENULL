@@ -1,0 +1,7 @@
+.director {
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    justify-content: center;
+    align-items: center;
+}
