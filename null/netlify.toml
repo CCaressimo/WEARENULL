@@ -1,5 +1,3 @@
-[[plugins]]
-  package = "@netlify/plugin-emails"
 [[redirects]]
   from = "/*"
   to = "/index.html"
